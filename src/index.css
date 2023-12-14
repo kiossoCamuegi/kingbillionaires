@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Rethink+Sans:wght@600&display=swap');
+body{
+   background:#161A30 !important;
+   box-sizing: border-box;
+   padding:0px;
+   font-family: 'Rethink Sans', sans-serif;
+} 
+
+ body .image-wall{
+  background-image: linear-gradient(to top, #209cff 0%, #68e0cf 100%);
+  height:500px;
+  width:100%;
+ }
+
+
+ body .image-wall img{
+   width:100%;
+   height:100%;
+   object-fit: cover;
+ }
+
+ body .line{ 
+  background-image: linear-gradient(90deg, rgb(243, 114, 209) 0%,rgb(44, 19, 241) 100%);
+  width:100%;
+  font-size:50px;
+  color:#ffff;
+  padding:23px;
+  text-align: center;
+  position: fixed;
+  left:0px;
+  top:0px; 
+ }
+
+
+ body .col-items{
+     width:100%;
+ }
+
+ .table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+  background-color: red;
+  background:#161A30;
+}
